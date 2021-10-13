@@ -1,0 +1,227 @@
+#thoigian{
+    background-color: #8ac9ff;
+    z-index: -2;
+}
+
+@media screen and (max-width: 666px) {
+    ul {
+        padding-left: 0px;
+    }
+
+    span{
+        font-size: 1rem !important;
+    }
+
+    #timeline{
+        padding-top: 0px;
+        display: flex;
+        flex-direction: row;
+        height: 600px;
+        justify-content: center;
+    }
+
+    #tl, #topLine, #bottomLine{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        height: 130%;
+    }
+
+    #topLine, #bottomLine{
+        width: 40%;
+    }
+
+    #tl li {
+        padding-bottom: 0px;
+        position:relative;
+        display: inline-block;
+        height: 33%;
+
+        
+        top: 0;
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #tl li > span:before{
+        content:'';
+        position:absolute;
+        border-left:5px solid white;
+        left:35%;
+        top: .4em;
+        z-index:0;
+        height:100%;
+    }
+    #tl li > span::after{
+        content:'';display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: #00305d;
+        text-align: center;
+        line-height: 1.2;
+        position: relative;
+        border-radius: 50%;
+        box-shadow: 1px 0px 8px 7px #0e0d0d45;
+    }
+
+    #tl li:last-child > span:before{
+        content:none;
+        width: 0%;
+    }
+    #tl li:last-child{
+        padding-bottom:0
+    }
+
+    #topLine li {
+        bottom: 0;
+        margin-bottom: -10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 33%;
+    }
+
+    #bottomLine li{
+        bottom: 0;
+        margin-bottom: -10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 33%;
+    }
+
+    .imgT{
+        width: 74%;
+    }
+
+    .dateT{
+        font-family: Gotham;
+        font-weight: bold;
+        font-size: 3vw;
+        color: #00305d;
+    }
+
+    .roundT{
+        font-family: Neutra;
+        /*font-weight: bold;*/
+        font-size: 3vw;
+        color: #00305d;
+    }
+
+    .titleT{
+        font-family: Gotham;
+        /*font-weight: bold;*/
+        font-size: 3vw;
+        color: #00305d;
+    }
+}
+
+
+@media screen and (min-width: 666px) {
+    ul {
+        padding-left: 0px;
+    }
+
+    #timeline{
+        padding-top: 0px;
+    }
+
+    #tl, #topLine, #bottomLine{
+        list-style: none;
+        display: flex;
+    }
+
+    #tl li {
+        padding-bottom: 0px;
+        position:relative;
+        display: inline-block;
+        width: 33%;
+
+        
+        top: 0;
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #tl li > span:before{
+        content:'';
+        position:absolute;
+        border-top:5px solid white;
+        left:51%;
+        top: 46%;
+        z-index:0;
+        width:100%
+    }
+    #tl li > span::after{
+        content:'';display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: #00305d;
+        text-align: center;
+        line-height: 1.2;
+        position: relative;
+        border-radius: 50%;
+        box-shadow: 1px 0px 8px 7px #0e0d0d45;
+    }
+
+    #tl li:last-child > span:before{
+        content:none;
+        width: 0%;
+    }
+    #tl li:last-child{
+        padding-bottom:0
+    }
+
+    #topLine li {
+        top: 0;
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 33%;
+    }
+
+    #bottomLine li{
+        bottom: 0;
+        margin-bottom: -10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 33%;
+    }
+
+    .imgT{
+        width: 25%;
+    }
+
+    .dateT{
+        font-family: Gotham;
+        font-weight: bold;
+        font-size: 3vw;
+        color: #00305d;
+    }
+
+    .roundT{
+        font-family: Neutra;
+        /*font-weight: bold;*/
+        font-size: 3vw;
+        color: #00305d;
+    }
+
+    .titleT{
+        font-family: Gotham;
+        /*font-weight: bold;*/
+        font-size: 3vw;
+        color: #00305d;
+    }
+}

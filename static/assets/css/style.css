@@ -1,0 +1,678 @@
+
+
+@font-face {
+    font-family: Neutra;
+    src: url(../fonts/UTM\ Neutra.ttf)
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/SVN-GOTHAM/SVN-Gotham\ Black.otf);
+}
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/SVN-GOTHAM/SVN-Gotham\ Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/SVN-GOTHAM/SVN-Gotham\ Light.otf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/SVN-GOTHAM/SVN-Gotham\ Black\ Italic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+h1{
+    font-family: Neutra;
+    margin-top: 0px;
+}
+
+h5{
+    font-family: Neutra;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+#tkTeamsList {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+
+.uL{
+    margin-top: 0%;
+    margin-bottom: 2%;
+    padding-right: 0%;
+    padding-left: 10%;
+}
+
+
+
+.section{
+    padding: 50px 20px 50px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.flex5050{
+    display: flex;
+}
+
+.flex5050 > div
+{
+    flex:1 1 auto;
+    margin:1%;  /* and that, will result in a 10px gap */
+}
+
+.flex5050 > .column1 {
+    width: 50%;
+}
+
+.flex5050 > .column1 > h1{
+    margin-top: 0px;
+}
+
+.flex5050 > .column2 {
+    width: 50%;
+}
+
+.flex6040{
+    display: flex;
+}
+
+.flex6040 > .column1{
+    width: 60%;
+}
+
+.flex6040 > .column2{
+    width: 40%;    
+    padding-left: 3%;
+}
+
+.flex6040 > div
+{
+    flex:1 1 auto;
+    margin:1%; 
+}
+
+#gioithieulogo {
+    width: 100%;
+    filter: drop-shadow(2vw -2vw 1vw #e4abc5);
+}
+
+#hinhquatrinh {
+    width: 100%;
+    border-left: .6rem solid #a30308;
+    border-right: .6rem solid #a30308;
+    border-radius: .3rem;
+    background-color: black;
+}
+
+#CTVimg {
+    width: 100%;
+}
+
+#prismasticImg {
+    width: 100%;
+    filter: drop-shadow(2vw -2vw 1vw #c7c7c7);
+}
+
+#prismasticImg2{
+    width: 110%;
+    margin-top: -10%;
+    margin-left: -5%;
+}
+
+
+#tkInfo{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    padding-right: 05%;
+    justify-content: space-between;
+}
+
+#tkcontent{
+    display: flex;
+}
+
+
+#tkText{
+    color: #023868;
+    text-align: right;
+    width: 75%;
+    padding-left: 20px;
+}
+
+#tkText > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#tkTeams{
+    background-color: #023868;
+    color: white;
+    border-radius: .5rem;
+}
+
+#tkTeams > :first-child{
+    text-align: center;
+    padding-top: 2%;
+}
+
+#tkTeamsList{
+    display: flex;
+}
+
+#tkTeamsList >div{
+    width: 50%;
+}
+
+#prismasticTitle > *{
+    display:inline;
+}
+
+#prismasticTitle > h1{
+    font-size: 195%;
+}
+
+#prismasticContent{
+    display: flex;
+    flex-direction: row;
+}
+
+#prismasticImg{
+    width: 100%;
+}
+
+#thoigian>.section >h1{
+    text-align: center;
+    color: #00305d;
+}
+
+.col1{
+    width: 27%;
+}
+
+.col2{
+    width: 46%;
+}
+
+.weird{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+}
+
+.weird >h5{
+    font-family: Neutra;
+    margin-top: 37%;
+}
+
+.prisText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#prismasticTitle{
+    padding-bottom: 4%;
+    padding-right: 4%;
+}
+
+#prismasticTitle >h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Neutra;
+    color: white;
+}
+
+#prP2{
+    font-family: Gotham;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+#gioithieu{
+    color: #a30308;
+}
+
+#gioithieu > p {
+    color: #b4040a;
+}
+
+#quatrinhhoatdong {
+    background-color: #dfacad;
+}
+
+#quatrinhhoatdong{
+    color: #a30308;
+}
+
+#quatrinhhoatdong > p {
+    color: #b4040a;
+}
+
+#prismastic {
+    background-color: #badfff;
+    color: #00305d;
+}
+
+#motayeucau {
+    background-color: #60b2f9;
+    color: #0a3965;
+}
+
+.creativebg{
+    background-color: #9dd1fd;
+}
+
+.trthongbg{
+    background-color: #cc9ceb;
+}
+
+.kythuatbg{
+    background-color: #cce68b;
+}
+
+.scenobg{
+    background-color: #1f9bf0;
+}
+
+.hrbg{
+    background-color: #7cc6fc;
+}
+
+.vdbg{
+    background-color: #cce6fd;
+}
+
+.teamTitle{
+    margin-bottom: 4%;
+}
+
+.teamTitle > h3{
+    font-family: Neutra;
+    margin: .5rem 2rem .5rem 2rem;
+}
+
+.teamShader{
+    display: inline-block;
+    border-radius: .4rem;    
+    box-shadow: 6px -8px 0px rgb(0 0 0 / 20%);
+}
+
+.teamContainer{
+    text-align: center;
+    padding-top: 3%;
+}
+
+fieldset
+{
+    border-color: #00305d;
+    border-width: 3px;
+    border-radius: .5rem;
+}
+
+.subTeamTitle > h4{
+    font-family: Neutra;
+    margin: .5rem 2rem .5rem 2rem;
+}
+
+fieldset > ul, .vdC > ul {
+    text-align: left;
+    padding-left: 2%;
+}
+
+
+.vdC{
+    text-align: left;
+}
+
+.vdC>.subTeamTitle{
+    margin-left: -3rem;
+}
+
+#chitietvongCV{
+    background-color: #2d92ea;
+}
+/*
+#chitietTitle{
+    display: inline-flex;
+}
+*/
+
+#chitietTitle > h4{
+    font-family: Neutra;
+    color: white; 
+    display: inline;
+}
+
+#bigtitle {
+    display: inline-flex;
+}
+
+#bigtitle > :first-child{
+    color: #00305d;
+}
+
+#bigtitle > :last-child{
+    color: white;
+}
+
+#chitietTex{
+    color: white;
+}
+
+#chitietTex >h6{
+    font-family: Neutra ;
+    color: #00305d;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#chitietQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 4rem;
+}
+
+#chitietQ>h2{
+    font-family: Neutra;
+    color: #00305d;
+    margin-top: 0%;
+}
+
+.hdimgc{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#chitietQ>div>img{
+    width: 100%;
+    padding-bottom: 2%;
+}
+#chitietQ>div{
+    filter: drop-shadow(1rem -1rem 1.2px #2372b7);
+}
+
+#chitietvongCV>.section>p{
+    color: white;
+    font-style: italic;
+}
+
+#chitietvongCV>.section{
+    padding: 50px 20px 10px 20px;
+}
+
+#lienhe{
+    margin-top: 1px;
+    color: white;
+    background-color: #004886;
+    font-family: Neutra;
+}
+
+#lienhe>.section{
+    padding: 0 20px 0 20px;
+}
+
+#cline{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#contact>*{
+    width: 45%;
+    display: inline-block;
+    padding-left: 22%;
+}
+
+.cimg{
+    width: 5vw;
+    padding-top: 45%;
+    filter: drop-shadow(4px -3px 5px #00305d);
+}
+
+
+@media screen and (max-width: 1156px) {
+    p{
+        font-size: 1em;
+    }
+}
+
+#colorP{
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 666px) {
+    .large{
+        display: none;
+    }
+
+    p{
+        font-size: .7em;
+    }
+
+    body {
+        font-size: 4vw;
+    }
+    h1{
+        font-size: 4.5vw;
+    }
+
+    #gioithieu > .section >h1{
+        text-align: center;
+    }
+    .vdC>.subTeamTitle {
+        margin-left: -2rem !important;
+    }
+    .team33{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team33 > fieldset{
+        max-width: 369px;
+        margin-bottom: 4%;
+    }
+
+    .team22{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .team22 > fieldset{
+        max-width: 369px;
+        margin-bottom: 4%;
+    }
+    
+    .team22 > fieldset > legend{
+        margin-bottom: 7%;
+    }
+
+    .flex6040 > .column1 {
+        text-align: center;
+    }
+
+    .textp{
+        padding-top: 5%;
+    }
+
+    .flex7030{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .flex7030 > :first-child{
+        width: 34%;
+    }
+
+    .flex7030 > :last-child{
+        width: 65%;
+    }
+    /*
+    #hinhquatrinh {
+        width: 93%;
+    }
+    */
+    .CTVteam>:first-child{
+        width: 69%;
+    }
+    .CTVteam>:last-child{
+        width: 100%;
+    }
+    .tkText{
+        text-align: center;
+        color: #023868;
+    }
+
+    .textp > p{
+        margin-bottom: 1%;
+    }
+
+    #sPriTitle{
+        white-space: nowrap;
+    }
+
+    #sPriTitle>:last-child{
+        display: contents;  
+    }
+
+    #colorP{
+        width: 35%;
+    }
+
+    #prisText{
+        text-align: center;
+    }
+    
+    #sPriTitle > *{
+        display: inline-block;
+    }
+
+    #chitietContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #chitietQ{
+        padding-left: 16%;
+        padding-right: 16%;
+    }
+    
+    #chitietTex >h6{
+        font-size: 1rem;
+    }
+
+    #chitietQ>h2{
+        font-size: 140%;
+    }
+
+    #cline>h4{
+        font-size: 64%;
+    }
+}
+
+@media screen and (min-width: 666px) {    
+    .small{
+        display: none;
+    }
+    body {
+        font-size: 2vw;
+    }
+
+    h1{
+        font-size: 3.5vw;
+    }
+    .team33{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .team33 > fieldset{
+        width: 28%;
+    }
+
+    .team22{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .team22 > fieldset{
+        width: 40%;
+    }
+    
+    .team22 > fieldset > legend{
+        margin-bottom: 7%;
+    }
+
+    .flex7030{
+        display: flex;
+    }
+    #verTex{
+        width: 25%;
+    }
+    #tkImg{
+        width: 39%;
+    }
+
+    #chitietContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #chitietTex{
+        width: 60%;
+    }
+
+    #chitietQ{
+        width: 44%;
+        padding-top: 4%;
+    }
+    
+    #chitietTex >h6{
+        font-size: 120%;
+    }
+
+    #chitietQ>h2{
+        font-size: 146%;
+    }
+}
+
+.team33 > fieldset > ul > li, .vdC > ul > li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
