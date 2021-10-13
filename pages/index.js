@@ -8,11 +8,15 @@ export default function Home() {
         <>
         <Head>
             <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+            <meta property="og:image" content="https://i.imgur.com/vaMYwTn.png" />
+            <meta property="og:description" content= "Mỗi bạn sinh viên UEH đều mang trong mình một ánh sáng nhỏ dẫn đường đến UEH Kingdom. Cùng nhau thể hiện cá tính riêng thông qua chiếc UEH ID Card nhé." />
+            <meta property="og:title" content= "BAN PHONG TRÀO - TÌNH NGUYỆN UEH" />
+            <title>BAN PHONG TRÀO - TÌNH NGUYỆN UEH</title>
         </Head>
         <div>
             <Script strategy="beforeInteractive" type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></Script>  
             <Script strategy="beforeInteractive" type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>            
-            <Script strategy="afterInteractive" type="text/javascript">
+            <Script id="aosinit" strategy="afterInteractive" type="text/javascript">
                 AOS.init();
             </Script>
         </div>
@@ -65,11 +69,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="column2 large" data-aos="fade-left">
-                        <p>Trải qua hơn 14 năm hình thành và phát triển, Ban Phong Trào - Tình nguyện UEH đã và đang khẳng định được vị trí của mình bởi số lượng sân chơi tạo ra cho các bạn sinh viên ngày càng nhiều, những hoạt động phong trào vô cùng sáng tạo cùng với đó là các sản phẩm âm nhạc, dự án cực kì thu hút sinh viên. Tất cả những điều đó luôn là động lực để "Ban Phong trào - Tình nguyện UEH" ngày càng đổi mới và phát triển hơn nữa.</p>
+                        <p>Trải qua hơn 14 năm hình thành và phát triển, Ban Phong Trào - Tình nguyện UEH đã và đang khẳng định được vị trí của mình bởi số lượng sân chơi tạo ra cho các bạn sinh viên ngày càng nhiều, những hoạt động phong trào vô cùng sáng tạo cùng với đó là các sản phẩm âm nhạc, dự án cực kì thu hút sinh viên. Tất cả những điều đó luôn là động lực để &quot;Ban Phong trào - Tình nguyện UEH&quot; ngày càng đổi mới và phát triển hơn nữa.</p>
                     </div>
                 </div>
                 <div className="small textp" data-aos="fade-left" >
-                    <p>Trải qua hơn 14 năm hình thành và phát triển, Ban Phong Trào - Tình nguyện UEH đã và đang khẳng định được vị trí của mình bởi số lượng sân chơi tạo ra cho các bạn sinh viên ngày càng nhiều, những hoạt động phong trào vô cùng sáng tạo cùng với đó là các sản phẩm âm nhạc, dự án cực kì thu hút sinh viên. Tất cả những điều đó luôn là động lực để "Ban Phong trào - Tình nguyện UEH" ngày càng đổi mới và phát triển hơn nữa.</p>
+                    <p>Trải qua hơn 14 năm hình thành và phát triển, Ban Phong Trào - Tình nguyện UEH đã và đang khẳng định được vị trí của mình bởi số lượng sân chơi tạo ra cho các bạn sinh viên ngày càng nhiều, những hoạt động phong trào vô cùng sáng tạo cùng với đó là các sản phẩm âm nhạc, dự án cực kì thu hút sinh viên. Tất cả những điều đó luôn là động lực để &quot;Ban Phong trào - Tình nguyện UEH&quot; ngày càng đổi mới và phát triển hơn nữa.</p>
                 </div>
             </div>
         </section>
@@ -151,8 +155,8 @@ export default function Home() {
                         </div>
                         <div className="col1 weird">
                             <div dangerouslySetInnerHTML={{ __html: `<img id="colorP" src="/Untitled-2.png" />`}}></div>
-                            <h5>"NO WHERE BUT HERE
-                                NO ONE BUT YOU"</h5>
+                            <h5>&quot;NO WHERE BUT HERE
+                                NO ONE BUT YOU&quot;</h5>
                         </div>
                     </div>
                 </div>
@@ -172,7 +176,7 @@ export default function Home() {
                         <p id="prP2">
                             Ban Phong trào chính là lăng kính giúp bạn kiếm tìm màu sắc thuộc về bản thân mình, và thuộc về chúng tôi. 
                         </p>
-                        <h5>"NO WHERE BUT HERE NO ONE BUT YOU"</h5>
+                        <h5>&quot;NO WHERE BUT HERE NO ONE BUT YOU&quot;</h5>
                     </div>
                 </div>
             </div>
