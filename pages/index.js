@@ -4,7 +4,9 @@ import Image from "next/image"
 import { Carousel } from 'react-responsive-carousel'
 import React, { useEffect, useRef } from 'react';
 import { Component } from "react";
-import VideoPlayer from "../components/videoplayer.js";
+import Members from "../components/members.js"
+import Countdown from "../components/countdown.js";
+import PageWraper from "../components/pagewraper.js";
 
 export default function Home() {
     const videoRef = useRef(null)
@@ -20,28 +22,26 @@ export default function Home() {
         <>
         <Head>
             <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+            <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
             <meta property="og:image" content="https://i.imgur.com/vaMYwTn.png" />
             <meta property="og:description" content= "Mỗi bạn sinh viên UEH đều mang trong mình một ánh sáng nhỏ dẫn đường đến UEH Kingdom. Cùng nhau thể hiện cá tính riêng thông qua chiếc UEH ID Card nhé." />
             <meta property="og:title" content= "BAN PHONG TRÀO - TÌNH NGUYỆN UEH" />
             <title>BAN PHONG TRÀO - TÌNH NGUYỆN UEH</title>
-            <meta name="apple-mobile-web-app-status-bar-style" content="#003462"/>
-            <meta name="theme-color" content="#003462"></meta>
+            <meta name="apple-mobile-web-app-status-bar-style" content="#e92a96"/>
+            <meta name="theme-color" content="#e92a96"></meta>
         </Head>
         <div>
             <Script strategy="beforeInteractive" type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></Script>  
             <Script strategy="beforeInteractive" type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>            
+            <Script strategy="beforeInteractive" type="text/javascript" src="https://vjs.zencdn.net/7.15.4/video.min.js"></Script>            
             <Script id="aosinit" strategy="afterInteractive" type="text/javascript">
                 AOS.init();
             </Script>
         </div>
-
-        
-            <video ref={videoRef} muted controls autoPlay playsInline loop style={{width: "100%"}}>
-                <source src="/vidb.mp4" type="video/mp4" />
-            </video>
-        {/*
-        <Image width="1920" height="1080‬" src="https://i.imgur.com/vaMYwTn.png" style={{width:"100%"}} />
-        */}
+        <PageWraper></PageWraper>
+        <div style={{paddingTop:"80px"}}>
+            <Image width="1920" height="1080‬" src="https://i.imgur.com/vaMYwTn.png" style={{width:"100%"}} />
+        </div>
         <section id="gioithieu" >
             <div className="section" >
                 <h1 className="small">BAN PHONG TRÀO - TÌNH NGUYỆN UEH</h1>
@@ -68,7 +68,7 @@ export default function Home() {
                     <p>Ban Phong trào - Tình nguyện UEH luôn là đầu tàu dẫn dắt trong hoạt động sinh viên UEH nói riêng và TP. HCM nói chung, không chỉ lớn mạnh về quy mô, chất lượng về phong trào mà còn mang sứ mệnh truyền tải những thông điệp ý nghĩa đến các thế hệ sinh viên.</p></div>
             </div>
         </section>
-        
+
         <section id="quatrinhhoatdong" >
             <div className="section"  style={{overflowX:"hidden"}}>
                 <h1>QUÁ TRÌNH HOẠT ĐỘNG</h1>
@@ -98,7 +98,9 @@ export default function Home() {
                 </div>
             </div>
         </section>
-        
+
+        <Members></Members>
+
         <section id="timkiemCTV" >
             <div className="section" >
                 <div className="large">
@@ -841,6 +843,11 @@ export default function Home() {
                         </fieldset>
                     </div>
                 </div>
+
+                <Countdown 
+                    timeTillDate="10 15 2021, 06:00 am" 
+                    timeFormat="MM DD YYYY, h:mm a" >
+                </Countdown>
             </div>
         </section>
         

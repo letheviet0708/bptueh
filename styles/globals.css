@@ -14,3 +14,55 @@ a {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "CardFont";
+  src: url(../static/assets//fonts/cardfont/VL_BoosterNextFY-Black.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CardFont";
+  src: url(../static/assets//fonts/cardfont/VL_BoosterNextFY-Thin.otf);
+}
+
+
+.divcontainer{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.border{
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.sticky{
+  position: fixed !important;
+  top: 0;
+}
+
+@media(min-width: 992px) {
+  #checkingg{
+    color: red;
+  }
+}
+@media(max-width: 992px) {
+  #brand{
+    flex: 0 0 80%;
+  }
+  #menuBtn{
+    flex: 0 0 20%;
+  }
+  #checkingg{
+    color: blue;
+  }
+}
+#brand{
+  display: flex;
+}
+
+#mainNav{
+  font-family: 'CardFont';
+}
