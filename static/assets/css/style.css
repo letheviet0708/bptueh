@@ -41,7 +41,7 @@ h5{
 }
 
 p {
-    margin-top: 0px;
+    margin-top: 0px !important;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
 }
@@ -651,7 +651,7 @@ fieldset > ul, .vdC > ul {
     }
 
     h1{
-        font-size: 3.5vw;
+        font-size: 2rem;
     }
     .team33{
         display: flex;
@@ -751,7 +751,7 @@ fieldset > ul, .vdC > ul {
 
 #countDown span {
     font-family: 'Gotham';
-    font-size: 13vw !important;
+    font-size: 430%!important;
     font-weight: 700;
 }
 
