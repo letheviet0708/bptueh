@@ -207,21 +207,21 @@
     .dateT{
         font-family: Gotham;
         font-weight: bold;
-        font-size: 3vw;
+        font-size: 2vw;
         color: #00305d;
     }
 
     .roundT{
         font-family: Neutra;
         /*font-weight: bold;*/
-        font-size: 3vw;
+        font-size: 2vw;
         color: #00305d;
     }
 
     .titleT{
         font-family: Gotham;
         /*font-weight: bold;*/
-        font-size: 3vw;
+        font-size: 2vw;
         color: #00305d;
     }
 }

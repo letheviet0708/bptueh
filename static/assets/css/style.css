@@ -408,7 +408,7 @@ fieldset > ul, .vdC > ul {
     align-items: center;
 }
 
-#chitietQ>div>img{
+#chitietQ img{
     width: 100%;
     padding-bottom: 2%;
 }
@@ -675,4 +675,12 @@ fieldset > ul, .vdC > ul {
     font-size: 1rem;
     font-weight: bold;
     padding-bottom: 3%;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+  
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

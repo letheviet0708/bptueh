@@ -28,7 +28,7 @@ export default function Home() {
                     <div className="column1 column large " data-aos="fade-right">
                         <h1>BAN PHONG TRÀO - TÌNH NGUYỆN UEH</h1>
                         <p>
-                            Ban Phong Trào - Tình Nguyện UEH là ban chuyên môn trực thuộc Đoàn thanh niên trường Đậi học Kinh tế TP.HCM, tiên phong trong việc tổ chức các hoạt động phong trào có quy mô cấp trường.
+                            Ban Phong Trào - Tình Nguyện UEH là ban chuyên môn trực thuộc Đoàn thanh niên trường Đại học Kinh tế TP.HCM, tiên phong trong việc tổ chức các hoạt động phong trào có quy mô cấp trường.
                         </p>
                         <h5>TIÊN PHONG - BẢN LĨNH - SÁNG TẠO</h5>
                         <p>Ban Phong trào - Tình nguyện UEH luôn là đầu tàu dẫn dắt trong hoạt động sinh viên UEH nói riêng và TP. HCM nói chung, không chỉ lớn mạnh về quy mô, chất lượng về phong trào mà còn mang sứ mệnh truyền tải những thông điệp ý nghĩa đến các thế hệ sinh viên.</p>
@@ -69,11 +69,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="column2 large" data-aos="fade-left">
-                        <p>Trải qua hơn 14 năm hình thành và phát triển, Ban Phong Trào - Tình nguyện UEH đã và đang khẳng định được vị trí của mình bởi số lượng sân chơi tạo ra cho các bạn sinh viên ngày càng nhiều, những hoạt động phong trào vô cùng sáng tạo cùng với đó là các sản phẩm âm nhạc, dự án cực kì thu hút sinh viên. Tất cả những điều đó luôn là động lực để &quot;Ban Phong trào - Tình nguyện UEH&quot; ngày càng đổi mới và phát triển hơn nữa.</p>
+                        <p>Trải qua hơn 14 năm hình thành và phát triển, Ban Phong Trào - Tình nguyện UEH đã và đang khẳng định được vị trí của mình bởi số lượng sân chơi tạo ra cho các bạn sinh viên ngày càng nhiều, những hoạt động phong trào vô cùng sáng tạo cùng với đó là các sản phẩm âm nhạc, dự án cực kì thu hút sinh viên. Tất cả những điều đó luôn là động lực để Ban Phong trào - Tình nguyện UEH ngày càng đổi mới và phát triển hơn nữa.</p>
                     </div>
                 </div>
                 <div className="small textp" data-aos="fade-left" >
-                    <p>Trải qua hơn 14 năm hình thành và phát triển, Ban Phong Trào - Tình nguyện UEH đã và đang khẳng định được vị trí của mình bởi số lượng sân chơi tạo ra cho các bạn sinh viên ngày càng nhiều, những hoạt động phong trào vô cùng sáng tạo cùng với đó là các sản phẩm âm nhạc, dự án cực kì thu hút sinh viên. Tất cả những điều đó luôn là động lực để &quot;Ban Phong trào - Tình nguyện UEH&quot; ngày càng đổi mới và phát triển hơn nữa.</p>
+                    <p>Trải qua hơn 14 năm hình thành và phát triển, Ban Phong Trào - Tình nguyện UEH đã và đang khẳng định được vị trí của mình bởi số lượng sân chơi tạo ra cho các bạn sinh viên ngày càng nhiều, những hoạt động phong trào vô cùng sáng tạo cùng với đó là các sản phẩm âm nhạc, dự án cực kì thu hút sinh viên. Tất cả những điều đó luôn là động lực để Ban Phong trào - Tình nguyện UEH ngày càng đổi mới và phát triển hơn nữa.</p>
                 </div>
             </div>
         </section>
@@ -90,24 +90,24 @@ export default function Home() {
                                 <div id="tkText">
                                     <p>Là chương trình tuyển CTV của Ban Phong trào - Tình nguyện UEH. Năm 2021, với chủ đề PRISMASTIC, chúng tôi mong muốn rằng sẽ tìm ra những người phù hợp, những bạn trẻ mang trong mình sắc trắng tinh khôi, thông qua lăng kính của BPT sẽ được thay đổi thành những màu sắc rực rỡ.</p>
                                     <h5>ĐỐI TƯỢNG THAM GIA</h5>
-                                    <p>Sinh viên K46, K47 Hệ CQ của trường Đại học UEH có nguyện vọng trở thành một màu sắc của BPT</p>
+                                    <p>Sinh viên K46, K47 Hệ CQ của trường Đại học Kinh tế TP.HCM có nguyện vọng trở thành một màu sắc của BPT</p>
                                 </div>
                             </div>
                             <div id="tkTeams">
-                                <div><h5>CÁC TEAM CẦN TUYỂN</h5></div>
+                                <div><h5>CÁC BỘ PHẬN CẦN TUYỂN</h5></div>
                                 <div id="tkTeamsList" >
                                     <div>
                                         <ul className="uL" >
-                                            <li>Team Creative</li>
-                                            <li>Team Truyền thông</li>
-                                            <li>Team Kỹ thuật</li>
+                                            <li>Creative</li>
+                                            <li>Truyền thông</li>
+                                            <li>Kỹ thuật</li>
                                         </ul>
                                     </div>
                                     <div>
                                         <ul className="uL" >
-                                            <li>Team Videography</li>
-                                            <li>Team Scenography</li>
-                                            <li>Team HR</li>
+                                            <li>Videography</li>
+                                            <li>Scenography</li>
+                                            <li>HR</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@ export default function Home() {
                         </div>
                         <div className="col1 weird">
                             <div dangerouslySetInnerHTML={{ __html: `<img id="colorP" src="/Untitled-2.png" />`}}></div>
-                            <h5>&quot;NO WHERE BUT HERE
+                            <h5>&quot;NO WHERE BUT HERE,
                                 NO ONE BUT YOU&quot;</h5>
                         </div>
                     </div>
@@ -168,7 +168,7 @@ export default function Home() {
                         </div>
                         <div dangerouslySetInnerHTML={{ __html: `<img id="colorP" src="/Untitled-2.png" />`}}></div>
                     </div>
-                    <div dangerouslySetInnerHTML={{ __html: `<img id="prismasticImg2" data-aos="fade" src="/Layer 18.png" />`}}></div>
+                    <div dangerouslySetInnerHTML={{ __html: `<img id="prismasticImg2" data-aos="fade" data-aos-delay="300" src="/Layer 18.png" />`}}></div>
                     <div id="prisText" >
                         <p id="prP1">
                             Xuất phát từ ý nghĩa ánh sáng trắng khi đi qua lăng kính sẽ được biến đổi màu sắc, chúng tôi muốn khẳng định rằng:
@@ -176,7 +176,7 @@ export default function Home() {
                         <p id="prP2">
                             Ban Phong trào chính là lăng kính giúp bạn kiếm tìm màu sắc thuộc về bản thân mình, và thuộc về chúng tôi. 
                         </p>
-                        <h5>&quot;NO WHERE BUT HERE NO ONE BUT YOU&quot;</h5>
+                        <h5>&quot;NO WHERE BUT HERE, NO ONE BUT YOU&quot;</h5>
                     </div>
                 </div>
             </div>
@@ -194,11 +194,11 @@ export default function Home() {
                             </li>
                             <li data-aos="zoom-in-up" data-aos-delay="300" >
                                 <div dangerouslySetInnerHTML={{ __html: `<img class="imgT" src="/tl2.png" />`}}></div>
-                                <span className="dateT">15/10 - 25/10</span>
+                                <span className="dateT">28/10 - 31/10</span>
                             </li>
                             <li data-aos="zoom-in-up" data-aos-delay="600" >
                                 <div dangerouslySetInnerHTML={{ __html: `<img class="imgT" src="/tl3.png" />`}}></div>
-                                <span className="dateT">15/10 - 25/10</span>
+                                <span className="dateT">04/11 - 16/11</span>
                             </li>
                         </ul>
                         <ul id="tl">
@@ -276,15 +276,15 @@ export default function Home() {
         
         <section id="motayeucau"  >
             <div className="section" >
-                <h1>MÔ TẢ & YÊU CẦU CÔNG VIỆC</h1>
+                <h1 data-aos="fade-right">MÔ TẢ & YÊU CẦU CÔNG VIỆC</h1>
                 <div id="teamCreative" className="teamContainer">
-                    <div className="teamTitle teamShader creativebg">
-                        <h3>TEAM CREATIVE</h3>
+                    <div className="teamTitle teamShader creativebg" data-aos="zoom-in">
+                        <h3>BỘ PHẬN CREATIVE</h3>
                     </div>
                     <div className="team33">
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle creativebg teamShader">
+                                <div className="subTeamTitle creativebg teamShader " data-aos="flip-left" > 
                                     <h4>CÔNG VIỆC</h4>
                                 </div>
                             </legend>
@@ -306,7 +306,7 @@ export default function Home() {
                         
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle creativebg teamShader">
+                                <div className="subTeamTitle creativebg teamShader" data-aos="flip-left">
                                     <h4>YÊU CẦU</h4>
                                 </div>
                             </legend>
@@ -331,7 +331,7 @@ export default function Home() {
 
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle creativebg teamShader">
+                                <div className="subTeamTitle creativebg teamShader" data-aos="flip-left">
                                     <h4>QUYỀN LỢI</h4>
                                 </div>
                             </legend>
@@ -354,13 +354,13 @@ export default function Home() {
                 </div>
 
                 <div id="teamTrthong" className="teamContainer">
-                    <div className="teamTitle teamShader trthongbg">
-                        <h3>TEAM TRUYỀN THÔNG</h3>
+                    <div className="teamTitle teamShader trthongbg" data-aos="zoom-in">
+                        <h3>BỘ PHẬN TRUYỀN THÔNG</h3>
                     </div>
                     <div className="team33">
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle trthongbg teamShader">
+                                <div className="subTeamTitle trthongbg teamShader" data-aos="flip-left">
                                     <h4>CÔNG VIỆC</h4>
                                 </div>
                             </legend>
@@ -369,10 +369,7 @@ export default function Home() {
                                     Lập kế hoạch hoạt động cho các chiến dịch truyền thông ONLINE, OFFLINE
                                 </li>
                                 <li>
-                                    Quản lý các nền tảng trực tuyến 
-                                </li>
-                                <li>
-                                    (Facebook, instagram, TikTok,...)
+                                    Quản lý các nền tảng trực tuyến (Facebook, instagram, TikTok,...)
                                 </li>
                                 <li>
                                     Lên nội dung, sáng tạo, thực hiện các chuỗi bài truyền thông cho Ban Phong trào - Tình nguyện và Đoàn - Hội UEH
@@ -385,7 +382,7 @@ export default function Home() {
                         
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle trthongbg teamShader">
+                                <div className="subTeamTitle trthongbg teamShader" data-aos="flip-left">
                                     <h4>YÊU CẦU</h4>
                                 </div>
                             </legend>
@@ -416,7 +413,7 @@ export default function Home() {
 
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle trthongbg teamShader">
+                                <div className="subTeamTitle trthongbg teamShader" data-aos="flip-left">
                                     <h4>QUYỀN LỢI</h4>
                                 </div>
                             </legend>
@@ -439,13 +436,13 @@ export default function Home() {
                 </div>
 
                 <div id="teamKythuat" className="teamContainer">
-                    <div className="teamTitle teamShader kythuatbg">
-                        <h3>TEAM KỸ THUẬT</h3>
+                    <div className="teamTitle teamShader kythuatbg" data-aos="zoom-in">
+                        <h3>BỘ PHẬN KỸ THUẬT</h3>
                     </div>
                     <div className="team33">
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle kythuatbg teamShader">
+                                <div className="subTeamTitle kythuatbg teamShader" data-aos="flip-left">
                                     <h4>CÔNG VIỆC</h4>
                                 </div>
                             </legend>
@@ -467,7 +464,7 @@ export default function Home() {
                         
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle kythuatbg teamShader">
+                                <div className="subTeamTitle kythuatbg teamShader" data-aos="flip-left">
                                     <h4>YÊU CẦU</h4>
                                 </div>
                             </legend>
@@ -501,7 +498,7 @@ export default function Home() {
 
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle kythuatbg teamShader">
+                                <div className="subTeamTitle kythuatbg teamShader" data-aos="flip-left">
                                     <h4>QUYỀN LỢI</h4>
                                 </div>
                             </legend>
@@ -519,7 +516,7 @@ export default function Home() {
                                     Rèn luyện tính chủ động trong công việc.
                                 </li>
                                 <li>
-                                    Được trải nghiệm sử dụng, điều chỉnh dàn âm thanh và màn hình led hỗ trong quá trình chạy chương trình.
+                                    Được trải nghiệm sử dụng, điều chỉnh dàn âm thanh và màn hình led hỗ trợ trong quá trình chạy chương trình.
                                 </li>
                             </ul>
                         </fieldset>
@@ -527,20 +524,19 @@ export default function Home() {
                 </div>
 
                 <div id="teamSceno" className="teamContainer">
-                    <div className="teamTitle teamShader scenobg">
-                        <h3>TEAM SCENOGRAPHY</h3>
+                    <div className="teamTitle teamShader scenobg" data-aos="zoom-in">
+                        <h3>BỘ PHẬN SCENOGRAPHY</h3>
                     </div>
                     <div className="team33">
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle scenobg teamShader">
+                                <div className="subTeamTitle scenobg teamShader" data-aos="flip-left">
                                     <h4>CÔNG VIỆC</h4>
                                 </div>
                             </legend>
                             <ul>
                                 <li>
                                     Thiết kế sân khấu, hệ thống âm thanh, ánh sáng.
-    
                                 </li>
                                 <li>
                                     Vạch ra các phương án bố trí, trang trí trong các sự kiện.
@@ -551,15 +547,12 @@ export default function Home() {
                                 <li>
                                     Tìm kiếm địa điểm, góc quay.
                                 </li>
-                                <li>
-                                    Làm trò chơi, quản trò, lửa trại,…
-                                </li>
                             </ul>
                         </fieldset>
                         
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle scenobg teamShader">
+                                <div className="subTeamTitle scenobg teamShader" data-aos="flip-left">
                                     <h4>YÊU CẦU</h4>
                                 </div>
                             </legend>
@@ -590,14 +583,13 @@ export default function Home() {
 
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle scenobg teamShader">
+                                <div className="subTeamTitle scenobg teamShader" data-aos="flip-left">
                                     <h4>QUYỀN LỢI</h4>
                                 </div>
                             </legend>
                             <ul>
                                 <li>
                                     Được thỏa sức sáng tạo.
-                                    
                                 </li>
                                 <li>
                                     Được làm việc trong môi trường chuyên nghiệp.
@@ -617,18 +609,18 @@ export default function Home() {
                 </div>
 
                 <div id="teamVideo" className="teamContainer">
-                    <div className="teamTitle teamShader vdbg">
-                        <h3>TEAM videography</h3>
+                    <div className="teamTitle teamShader vdbg" data-aos="zoom-in">
+                        <h3>BỘ PHẬN videography</h3>
                     </div>
                     <div className="team22">
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle vdbg teamShader">
+                                <div className="subTeamTitle vdbg teamShader" data-aos="zoom-in">
                                     <h4>BỘ PHẬN 1 <br/>SCREENWRITER</h4>
                                 </div>
                             </legend>
                             <div className="vdC">
-                                <div className="subTeamTitle vdbg teamShader">
+                                <div className="subTeamTitle vdbg teamShader" data-aos="flip-left">
                                     <h4>CÔNG VIỆC</h4>
                                 </div>
                                 <ul>
@@ -641,7 +633,7 @@ export default function Home() {
                                 </ul>
 
                                 
-                                <div className="subTeamTitle vdbg teamShader">
+                                <div className="subTeamTitle vdbg teamShader" data-aos="flip-left">
                                     <h4>YÊU CẦU</h4>
                                 </div>
                                 <ul>
@@ -662,7 +654,7 @@ export default function Home() {
                                     </li>
                                 </ul>
 
-                                <div className="subTeamTitle vdbg teamShader">
+                                <div className="subTeamTitle vdbg teamShader" data-aos="flip-left">
                                     <h4>QUYỀN LỢI</h4>
                                 </div>
                                 <ul>
@@ -684,51 +676,58 @@ export default function Home() {
 
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle vdbg teamShader">
-                                    <h4>BỘ PHẬN 1 <br/>SCREENWRITER</h4>
+                                <div className="subTeamTitle vdbg teamShader" data-aos="zoom-in">
+                                    <h4>BỘ PHẬN 2 <br/>DOP</h4>
                                 </div>
                             </legend>
                             <div className="vdC">
-                                <div className="subTeamTitle vdbg teamShader">
+                                <div className="subTeamTitle vdbg teamShader" data-aos="flip-left">
                                     <h4>CÔNG VIỆC</h4>
                                 </div>
                                 <ul>
                                     <li>
-                                        Lên ý tưởng và dựng, viết kịch bản chi tiết cho các sản phẩm điện ảnh.                                 
+                                        Quay dựng, chụp ảnh.                                  
                                     </li>
                                     <li>
-                                        Điều phối các buổi quay phim, chụp ảnh.
+                                        Edit video.
+                                    </li>
+                                    <li>
+                                        Xử lý âm thanh, hình ảnh.
+                                    </li>
+                                    <li>
+                                        Thiết kế video, visual cho các chương trình lớn của trường, Ban.
                                     </li>
                                 </ul>
 
                                 
-                                <div className="subTeamTitle vdbg teamShader">
+                                <div className="subTeamTitle vdbg teamShader" data-aos="flip-left">
                                     <h4>YÊU CẦU</h4>
                                 </div>
                                 <ul>
                                     <li>
-                                        Có khả năng biên kịch hoặc viết content.
+                                        Chịu được áp lực công việc và có sự kiên trì.
                                     </li>
                                     <li>
-                                        Có khả năng chuyển thể từ văn bản sang hình ảnh. 
+                                    Biết quay, dựng phim. (có thiêt bị là một lợi thế)
                                     </li>
                                     <li>
-                                        Tư duy sáng tạo, táo bạo.
+                                        Có gu thẩm mỹ tốt.
                                     </li>
                                     <li>
-                                        Có khả năng giao tiếp, trình bày tốt. 
-                                    </li>
-                                    <li>
-                                        Có trách nhiệm trong công việc.
+                                        Sử dụng thành thạo Adobe Premiere/
+                                        Davinci Resolve/Magix Vegas 17/
+                                        Proshow Producer,...
                                     </li>
                                 </ul>
 
-                                <div className="subTeamTitle vdbg teamShader">
+                                <div className="subTeamTitle vdbg teamShader" data-aos="flip-left">
                                     <h4>QUYỀN LỢI</h4>
                                 </div>
                                 <ul>
+                                    <li>Được phát triển bản thân trong môi trường chuyên nghiệp.
+                                    </li>
                                     <li>
-                                        Được phát triển bản thân trong môi trường chuyên nghiệp.
+                                        Nâng cao kỹ năng quay, dựng phim
                                     </li>
                                     <li>
                                         Tăng cường kỹ năng giao tiếp và làm việc nhóm.
@@ -737,7 +736,7 @@ export default function Home() {
                                         Rèn dũa tính sáng tạo, chủ động trong công việc.
                                     </li>
                                     <li>
-                                        Được training, trao dồi kiến thức về mảng điện ảnh
+                                        Được training, trao dồi kiến thức về mảng điện ảnh.
                                     </li>
                                 </ul>
                             </div>
@@ -746,13 +745,13 @@ export default function Home() {
                 </div>
                 
                 <div id="teamHR" className="teamContainer">
-                    <div className="teamTitle teamShader hrbg">
-                        <h3>TEAM HR</h3>
+                    <div className="teamTitle teamShader hrbg" data-aos="zoom-in">
+                        <h3>BỘ PHẬN HR</h3>
                     </div>
                     <div className="team33">
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle hrbg teamShader">
+                                <div className="subTeamTitle hrbg teamShader" data-aos="flip-left">
                                     <h4>CÔNG VIỆC</h4>
                                 </div>
                             </legend>
@@ -774,7 +773,7 @@ export default function Home() {
                         
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle hrbg teamShader">
+                                <div className="subTeamTitle hrbg teamShader" data-aos="flip-left"> 
                                     <h4>YÊU CẦU</h4>
                                 </div>
                             </legend>
@@ -797,7 +796,7 @@ export default function Home() {
 
                         <fieldset>
                             <legend>
-                                <div className="subTeamTitle hrbg teamShader">
+                                <div className="subTeamTitle hrbg teamShader" data-aos="flip-left">
                                     <h4>QUYỀN LỢI</h4>
                                 </div>
                             </legend>
@@ -835,18 +834,22 @@ export default function Home() {
                         <h6>Ứng viên nộp 2 file như sau:</h6>
                         <p>
                             <b>1.</b> CV giới thiệu bản thân (có thể làm CV dựa trên mẫu có sẵn, PowerPoint, Video,...) <br/>
-                            <b>2.</b> Trả lời file câu hỏi theo từng Team tương ứng (link câu hỏi ở bên cạnh) bằng bất kỳ hình thức nào, miễn có thể thể hiện được cá tính, sự sáng tạo và chất riêng của bản thân. 
+                            <b>2.</b> Trả lời file câu hỏi theo từng Bộ phận tương ứng bằng bất kỳ hình thức nào, miễn có thể thể hiện được cá tính, sự sáng tạo và chất riêng của bản thân. 
                         </p>
                         <h6>Lưu bài dự thi theo cú pháp: </h6>
                         <p>[HỌ VÀ TÊN][CV] hoặc [HỌ VÀ TÊN][TRẢ LỜI CÂU HỎI] </p>
         
-                        <p>Sau khi thực hiện xong 2 yêu cầu trên, ứng viên vui lòng gửi 2 file vào link nộp bài dự thi (link ở bên cạnh). Đồng thời cập nhật tin tức trên Fanpage (gắn link vào đây nhe) tại đây để biết được kết quả sớm nhất!</p>
+                        <p>Sau khi thực hiện xong 2 yêu cầu trên, ứng viên vui lòng gửi 2 file vào link nộp bài dự thi. Đồng thời cập nhật tin tức trên Fanpage để biết được kết quả sớm nhất!</p>
                     </div>
                     <div id="chitietQ">
-                        <div dangerouslySetInnerHTML={{ __html: `<img src="/LINKCV.png" /> <img src="/LINKQ.png" />`}}>
+                        <div dangerouslySetInnerHTML={{ __html: ` 
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0qggNrW81nptAA5aNpFvw0iMgT7IGbquTMc4T_YJuzo71Fg/viewform?fbclid=IwAR2CMYmyF3U3cabnCkjpF7i5_FFGp4EuipElxm5eZd_7vzBlTEmwoPTZXpo" target="_blank">
+                                <img src="/LINKCV.png" class="zoom"/> 
+                            </a>
+                            <img  class="zoom" src="/LINKQ.png" />`}}>
                         </div>
                         
-                        <h2>NOW OR NERVER<br/>GOODLUCK!</h2>
+                        <h2>NOW OR NEVER<br/>GOODLUCK!</h2>
                     </div>
                 </div>
                 <p>Nếu có thắc mắc, xin vui lòng liên hệ chúng tôi qua các phương thức bên dưới để được hỗ trợ tốt nhất</p>
@@ -858,9 +861,9 @@ export default function Home() {
                 <div id="cline">
                     <h4>Liên hệ Ban Phong trào - Tình nguyện UEH</h4>
                     <div id="contact">
-                        <div dangerouslySetInnerHTML={{ __html: `<img class="cimg" src="/2055904.png"/>`}}></div>
-                        <div dangerouslySetInnerHTML={{ __html: `<img class="cimg" src="/mail.png"/>`}}></div>                        
-                        <div dangerouslySetInnerHTML={{ __html: `<img class="cimg" src="/face.png"/>`}}></div>                        
+                        <div dangerouslySetInnerHTML={{ __html: `<a href="tel:0935311403"><img class="cimg" src="/2055904.png"/></a>`}}></div>
+                        <div dangerouslySetInnerHTML={{ __html: `<a href="mailto:banphongtrao@ueh.edu.vn"><img class="cimg" src="/mail.png"/></a>`}}></div>                        
+                        <div dangerouslySetInnerHTML={{ __html: `<a href="https://www.facebook.com/BPTUEH/" target="blank"><img class="cimg" src="/face.png"/></a>`}}></div>                        
                     </div>
                 </div>
             </div>
