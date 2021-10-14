@@ -865,9 +865,9 @@ export default function Home() {
                 <div id="cline">
                     <h4>Liên hệ Ban Phong trào - Tình nguyện UEH</h4>
                     <div id="contact">
-                        <div dangerouslySetInnerHTML={{ __html: `<a href="tel:0935311403"><img class="cimg" src="/2055904.png"/></a>`}}></div>
-                        <div dangerouslySetInnerHTML={{ __html: `<a href="mailto:banphongtrao@ueh.edu.vn"><img class="cimg" src="/mail.png"/></a>`}}></div>                        
-                        <div dangerouslySetInnerHTML={{ __html: `<a href="https://www.facebook.com/BPTUEH/" target="blank"><img class="cimg" src="/face.png"/></a>`}}></div>                        
+                        <div dangerouslySetInnerHTML={{ __html: `<a href="tel:0935311403"><img class="cimg zoom" src="/2055904.png"/></a>`}}></div>
+                        <div dangerouslySetInnerHTML={{ __html: `<a href="mailto:banphongtrao@ueh.edu.vn"><img class="cimg zoom" src="/mail.png"/></a>`}}></div>                        
+                        <div dangerouslySetInnerHTML={{ __html: `<a href="https://www.facebook.com/BPTUEH/" target="blank"><img class="cimg zoom" src="/face.png"/></a>`}}></div>                        
                     </div>
                 </div>
             </div>
