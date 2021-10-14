@@ -848,7 +848,9 @@ export default function Home() {
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0qggNrW81nptAA5aNpFvw0iMgT7IGbquTMc4T_YJuzo71Fg/viewform?fbclid=IwAR2CMYmyF3U3cabnCkjpF7i5_FFGp4EuipElxm5eZd_7vzBlTEmwoPTZXpo" target="_blank">
                                 <img src="/LINKCV.png" class="zoom"/> 
                             </a>
-                            <img  class="zoom" src="/LINKQ.png" />`}}>
+                            <a href="https://drive.google.com/file/d/1pgrix7QGf65OfZqC3-9JhRCFupRBli-J/view?fbclid=IwAR2hUwC94vf1G3NgE9HRS76eWPmxxey442GEtUBGbf62TZ11ewYKFaHPJ2s" target="_blank">
+                                <img  class="zoom" src="/LINKQ.png" />
+                            </a>`}}>
                         </div>
                         
                         <h2>NOW OR NEVER<br/>GOODLUCK!</h2>
