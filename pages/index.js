@@ -12,6 +12,8 @@ export default function Home() {
             <meta property="og:description" content= "Mỗi bạn sinh viên UEH đều mang trong mình một ánh sáng nhỏ dẫn đường đến UEH Kingdom. Cùng nhau thể hiện cá tính riêng thông qua chiếc UEH ID Card nhé." />
             <meta property="og:title" content= "BAN PHONG TRÀO - TÌNH NGUYỆN UEH" />
             <title>BAN PHONG TRÀO - TÌNH NGUYỆN UEH</title>
+            <meta name="apple-mobile-web-app-status-bar-style" content="#003462"/>
+            <meta name="theme-color" content="#003462"></meta>
         </Head>
         <div>
             <Script strategy="beforeInteractive" type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></Script>  
