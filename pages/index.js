@@ -2,8 +2,20 @@ import Head from "next/head"
 import Script from "next/script"
 import Image from "next/image"
 import { Carousel } from 'react-responsive-carousel'
+import React, { useEffect, useRef } from 'react';
+import { Component } from "react";
+import VideoPlayer from "../components/videoplayer.js";
 
 export default function Home() {
+    const videoRef = useRef(null)
+
+    useEffect(() => {
+        if (videoRef && videoRef.current) {
+            console.log("play!")
+            videoRef.current.play()
+        }
+    }, [videoRef])
+
     return(
         <>
         <Head>
@@ -22,7 +34,14 @@ export default function Home() {
                 AOS.init();
             </Script>
         </div>
+
+        
+            <video ref={videoRef} muted controls autoPlay playsInline loop style={{width: "100%"}}>
+                <source src="/vidb.mp4" type="video/mp4" />
+            </video>
+        {/*
         <Image width="1920" height="1080‬" src="https://i.imgur.com/vaMYwTn.png" style={{width:"100%"}} />
+        */}
         <section id="gioithieu" >
             <div className="section" >
                 <h1 className="small">BAN PHONG TRÀO - TÌNH NGUYỆN UEH</h1>
