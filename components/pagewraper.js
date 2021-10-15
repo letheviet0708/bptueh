@@ -10,6 +10,7 @@ class PageWraper extends Component {
         return (
             <>
                 <Head>
+                    <link rel="icon" href="https://i.imgur.com/IV6j1V4.png"/>
                     <link rel="stylesheet" href="/static/assets/css/custom.css" />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" />
                 </Head>
@@ -63,7 +64,7 @@ class PageWraper extends Component {
                                     </a></Link>
                                 </li>
                                 <li className="nav-item mx-0 mx-lg-1">
-                                    <Link href="https://lightup.vercel.app/ranking/#ranking"><a className="nav-link py-3 px-0 px-lg-3 rounded">
+                                    <Link href="https://bptueh.vercel.app/"><a className="nav-link py-3 px-0 px-lg-3 rounded">
                                         Recruitment
                                     </a></Link>
                                 </li>
