@@ -62,7 +62,7 @@ export default function Home() {
                 </div>
                 <div className="small textp" data-aos="fade-right">
                     <p>
-                        Ban Phong Trào - Tình Nguyện UEH là ban chuyên môn trực thuộc Đoàn thanh niên trường Đậi học Kinh tế TP.HCM, tiên phong trong việc tổ chức các hoạt động phong trào có quy mô cấp trường.
+                        Ban Phong Trào - Tình Nguyện UEH là ban chuyên môn trực thuộc Đoàn thanh niên trường Đại học Kinh tế TP.HCM, tiên phong trong việc tổ chức các hoạt động phong trào có quy mô cấp trường.
                     </p>
                     <h5>TIÊN PHONG - BẢN LĨNH - SÁNG TẠO</h5>
                     <p>Ban Phong trào - Tình nguyện UEH luôn là đầu tàu dẫn dắt trong hoạt động sinh viên UEH nói riêng và TP. HCM nói chung, không chỉ lớn mạnh về quy mô, chất lượng về phong trào mà còn mang sứ mệnh truyền tải những thông điệp ý nghĩa đến các thế hệ sinh viên.</p></div>
@@ -157,7 +157,7 @@ export default function Home() {
                     <div className="tkText textp">
                         <p>Là chương trình tuyển CTV của Ban Phong trào - Tình nguyện UEH. Năm 2021, với chủ đề PRISMASTIC, chúng tôi mong muốn rằng sẽ tìm ra những người phù hợp, những bạn trẻ mang trong mình sắc trắng tinh khôi, thông qua lăng kính của BPT sẽ được thay đổi thành những màu sắc rực rỡ.</p>
                         <h5>ĐỐI TƯỢNG THAM GIA</h5>
-                        <p>Sinh viên K46, K47 Hệ CQ của trường Đại học UEH có nguyện vọng trở thành một màu sắc của BPT</p>
+                        <p>Sinh viên K46, K47 Hệ CQ của trường Đại học Kinh tế TP.HCM có nguyện vọng trở thành một màu sắc của BPT</p>
                     </div>
                 </div>
             </div>
@@ -319,7 +319,7 @@ export default function Home() {
                                     Lên ý tưởng và tổ chức các chương trình của Ban Phong trào
                                 </li>
                                 <li>
-                                    Sáng tạo nội dung và tổ chức các chuỗi hoạt động phong trào online & offline của Hội - Sinh viên UEH
+                                    Sáng tạo nội dung và tổ chức các chuỗi hoạt động phong trào online & offline của Đoàn - Hội UEH
                                 </li>
                                 <li>
                                     Trao đổi, kết nối và làm việc với các đơn vị khác trong trường 
@@ -694,7 +694,7 @@ export default function Home() {
                                         Rèn dũa tính sáng tạo, chủ động trong công việc.
                                     </li>
                                     <li>
-                                        Được training, trao dồi kiến thức về mảng điện ảnh
+                                        Được training, trau dồi kiến thức về mảng điện ảnh
                                     </li>
                                 </ul>
                             </div>
