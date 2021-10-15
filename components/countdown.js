@@ -20,7 +20,7 @@ class Countdown extends React.Component {
             const minutes = Math.floor( (total/1000/60) % 60 );
             const hours = Math.floor( (total/(1000*60*60)) % 24 );
             const days = Math.floor( total/(1000*60*60*24) )
-            this.setState({ days, hours, minutes});
+            this.setState({ days, hours, minutes, seconds});
         }, 1000);
     }
 
@@ -31,7 +31,7 @@ class Countdown extends React.Component {
     }
 
     render() {
-        const { days, hours, minutes } = this.state;
+        const { days, hours, minutes, seconds } = this.state;
         return(        
             <div id="countdownS">    
             <h1>CÒN</h1>
@@ -54,6 +54,12 @@ class Countdown extends React.Component {
                             <span>{minutes}</span>
                         </div>
                         <h3>PHÚT</h3>
+                    </div>
+                    <div id="cgiay">
+                        <div className="timbox">
+                            <span>{seconds}</span>
+                        </div>
+                        <h3>GIÂY</h3>
                     </div>
                 </div>
             <h1>HẾT HẠN NỘP CV</h1>

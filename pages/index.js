@@ -27,8 +27,8 @@ export default function Home() {
             <meta property="og:description" content= "Mỗi bạn sinh viên UEH đều mang trong mình một ánh sáng nhỏ dẫn đường đến UEH Kingdom. Cùng nhau thể hiện cá tính riêng thông qua chiếc UEH ID Card nhé." />
             <meta property="og:title" content= "BAN PHONG TRÀO - TÌNH NGUYỆN UEH" />
             <title>BAN PHONG TRÀO - TÌNH NGUYỆN UEH</title>
-            <meta name="apple-mobile-web-app-status-bar-style" content="#e92a96"/>
-            <meta name="theme-color" content="#e92a96"></meta>
+            <meta name="apple-mobile-web-app-status-bar-style" content="#b4040a"/>
+            <meta name="theme-color" content="#b4040a"></meta>
         </Head>
         <div>
             <Script strategy="beforeInteractive" type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></Script>  
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         <PageWraper></PageWraper>
         <div style={{paddingTop:"80px"}}>
-            <Image width="1920" height="1080‬" src="https://i.imgur.com/vaMYwTn.png" style={{width:"100%"}} />
+            <Image width="1920" height="1080‬" src="https://i.imgur.com/X8gG1Ky.png" style={{width:"100%"}} />
         </div>
         <section id="gioithieu" >
             <div className="section" >
@@ -56,7 +56,7 @@ export default function Home() {
                     </div>
 
                     <div className="column2 column">
-                        <div dangerouslySetInnerHTML={{ __html: `<img id="gioithieulogo" src = "/banphongtaologo.png" />` }} ></div>
+                        <div dangerouslySetInnerHTML={{ __html: `<img id="gioithieulogo" src = "/logo.png" />` }} ></div>
                         
                     </div>
                 </div>
@@ -84,8 +84,11 @@ export default function Home() {
                                 <div className="hdimgc" dangerouslySetInnerHTML={{ __html: `<img src="/hoatdongimg/4.jpg" />`}}></div>
                                 <div className="hdimgc" dangerouslySetInnerHTML={{ __html: `<img src="/hoatdongimg/5.jpg" />`}}></div>
                                 <div className="hdimgc" dangerouslySetInnerHTML={{ __html: `<img src="/hoatdongimg/6.jpg" />`}}></div>
-                                <div className="hdimgc" dangerouslySetInnerHTML={{ __html: `<img src="/hoatdongimg/7.jpg" />`}}></div>
                                 <div className="hdimgc" dangerouslySetInnerHTML={{ __html: `<img src="/hoatdongimg/8.jpg" />`}}></div>
+                                <div className="hdimgc" dangerouslySetInnerHTML={{ __html: `<img src="/hoatdongimg/9.jpg" />`}}></div>
+                                <div className="hdimgc" dangerouslySetInnerHTML={{ __html: `<img src="/hoatdongimg/10.jpg" />`}}></div>
+                                <div className="hdimgc" dangerouslySetInnerHTML={{ __html: `<img src="/hoatdongimg/11.jpg" />`}}></div>
+                                <div className="hdimgc" dangerouslySetInnerHTML={{ __html: `<img src="/hoatdongimg/12.jpg" />`}}></div>
                             </Carousel>
                         </div>
                     </div>
@@ -859,7 +862,7 @@ export default function Home() {
                 </div>
                 <div id="chitietContainer">
                     <div id="chitietTex">
-                        <h6>Ứng viên nộp 2 file như sau:</h6>
+                        <h6>Ứng viên nộp 2 files như sau:</h6>
                         <p>
                             <b>1.</b> CV giới thiệu bản thân (có thể làm CV dựa trên mẫu có sẵn, PowerPoint, Video,...) <br/>
                             <b>2.</b> Trả lời file câu hỏi theo từng Bộ phận tương ứng bằng bất kỳ hình thức nào, miễn có thể thể hiện được cá tính, sự sáng tạo và chất riêng của bản thân. 
@@ -867,14 +870,14 @@ export default function Home() {
                         <h6>Lưu bài dự thi theo cú pháp: </h6>
                         <p>[HỌ VÀ TÊN][CV] hoặc [HỌ VÀ TÊN][TRẢ LỜI CÂU HỎI] </p>
         
-                        <p>Sau khi thực hiện xong 2 yêu cầu trên, ứng viên vui lòng gửi 2 file vào link nộp bài dự thi. Đồng thời cập nhật tin tức trên Fanpage để biết được kết quả sớm nhất!</p>
+                        <p>Sau khi thực hiện xong 2 yêu cầu trên, ứng viên vui lòng gửi 2 files vào link nộp bài dự thi. Đồng thời cập nhật tin tức trên Fanpage để biết được kết quả sớm nhất!</p>
                     </div>
                     <div id="chitietQ">
                         <div dangerouslySetInnerHTML={{ __html: ` 
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0qggNrW81nptAA5aNpFvw0iMgT7IGbquTMc4T_YJuzo71Fg/viewform?fbclid=IwAR2CMYmyF3U3cabnCkjpF7i5_FFGp4EuipElxm5eZd_7vzBlTEmwoPTZXpo" target="_blank">
                                 <img src="/LINKCV.png" class="zoom"/> 
                             </a>
-                            <a href="https://drive.google.com/file/d/1pgrix7QGf65OfZqC3-9JhRCFupRBli-J/view?fbclid=IwAR2hUwC94vf1G3NgE9HRS76eWPmxxey442GEtUBGbf62TZ11ewYKFaHPJ2s" target="_blank">
+                            <a href="https://drive.google.com/file/d/1ecKjr2dWV_QGTbP4zEKrD0vVVtqi_odB/view?usp=sharing" target="_blank">
                                 <img  class="zoom" src="/LINKQ.png" />
                             </a>`}}>
                         </div>

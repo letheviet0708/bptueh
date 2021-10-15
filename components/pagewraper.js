@@ -62,6 +62,11 @@ class PageWraper extends Component {
                                         Tra Cứu
                                     </a></Link>
                                 </li>
+                                <li className="nav-item mx-0 mx-lg-1">
+                                    <Link href="https://lightup.vercel.app/ranking/#ranking"><a className="nav-link py-3 px-0 px-lg-3 rounded">
+                                        Recruitment
+                                    </a></Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
