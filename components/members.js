@@ -90,7 +90,7 @@ class Members extends Component {
                 <section id="members">
                     <div className="section">
                         <h1>MEMBERS</h1>
-                        <div dangerouslySetInnerHTML={{ __html: `<img id= "memberimg"src="/chutich2.png" />`}}></div>
+                        <div dangerouslySetInnerHTML={{ __html: `<img id= "memberimg"src="/temsimg/large/chutich.png" />`}}></div>
                         <div id="teamsimg">
                             <div onClick={() => this.showImage(1)} dangerouslySetInnerHTML={{ __html: `<img class= "teamimg"src="/temsimg/CRE.png" />`}}></div>
                             <div onClick={() => this.showImage(2)} dangerouslySetInnerHTML={{ __html: `<img class= "teamimg"src="/temsimg/TT.png" />`}}></div>
