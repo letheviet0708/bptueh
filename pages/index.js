@@ -874,7 +874,7 @@ export default function Home() {
                     </div>
                     <div id="chitietQ">
                         <div dangerouslySetInnerHTML={{ __html: ` 
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0qggNrW81nptAA5aNpFvw0iMgT7IGbquTMc4T_YJuzo71Fg/viewform?fbclid=IwAR2CMYmyF3U3cabnCkjpF7i5_FFGp4EuipElxm5eZd_7vzBlTEmwoPTZXpo" target="_blank">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScPR0nn_OysvBA8c5PDA2vmMfyV7GgeoR57DmyGEMFA3cg1Aw/viewform?fbclid=IwAR2Yp6llE4CQ1iXiw6Ps67C46nVGvghgpu4Zsqz6jZom16534AxQJ81wTzE" target="_blank">
                                 <img src="/LINKCV.png" class="zoom"/> 
                             </a>
                             <a href="https://drive.google.com/file/d/1ecKjr2dWV_QGTbP4zEKrD0vVVtqi_odB/view?usp=sharing" target="_blank">
