@@ -59,8 +59,10 @@ a {
     color: blue;
   }
 }
+
 #brand{
   display: flex;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 #mainNav{

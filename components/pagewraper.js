@@ -24,7 +24,7 @@ class PageWraper extends Component {
                 <nav className="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav" >
                     <div className="container" style={{fontSize:"1.5rem"}} >
                         <div id="brand">
-                        <div style={{paddingRight: "5px"}} ><Image src ="/log1.png" width="229px" height="40px"/></div>
+                        <div style={{paddingRight: "5px"}} ><Image src ="/log1.png" width="77px" height="40px"/></div>
                         <div style={{paddingRight: "5px"}} ><Image src ="/log3.png" width="40px" height="40px"/></div>
                         <div><Image src ="/log4.png" width="40px" height="40px"/></div>
                         </div>
