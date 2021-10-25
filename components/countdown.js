@@ -13,7 +13,7 @@ class Countdown extends React.Component {
     componentDidMount() {
         this.interval = setInterval(() => {
 
-            const endtime = "October 26 2021"
+            const endtime = "October 27 2021"
             
             const total = Date.parse(endtime) - Date.parse(new Date());
             const seconds = Math.floor( (total/1000) % 60 );
