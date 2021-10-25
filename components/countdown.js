@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-import countdown from 'countdown';
+import countdown, { MINUTES } from 'countdown';
 
 class Countdown extends React.Component {
     state = {
@@ -16,10 +16,14 @@ class Countdown extends React.Component {
             const endtime = "October 27 2021"
             
             const total = Date.parse(endtime) - Date.parse(new Date());
-            const seconds = Math.floor( (total/1000) % 60 );
-            const minutes = Math.floor( (total/1000/60) % 60 );
-            const hours = Math.floor( (total/(1000*60*60)) % 24 );
-            const days = Math.floor( total/(1000*60*60*24) )
+            console.log(total);
+            var seconds = Math.floor( (total/1000) % 60 );
+            var minutes = Math.floor( (total/1000/60) % 60 );
+            var hours = Math.floor( (total/(1000*60*60)) % 24 );
+            var days = Math.floor( total/(1000*60*60*24) )
+            if (total < 0){
+                seconds = minutes = hours = days = 0;
+            }
             this.setState({ days, hours, minutes, seconds});
         }, 1000);
     }
